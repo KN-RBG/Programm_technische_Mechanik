@@ -1,6 +1,6 @@
 "use strict";
 const NS="http://www.w3.org/2000/svg";
-const types={beam:"Balken",fixed:"Festlager",roller:"Loslager",clamp:"Einspannung",force:"Einzelkraft"};
+const types={beam:"Balken",fixed:"Festlager",roller:"Loslager",clamp:"Einspannung",force:"Einzelkraft",dimension:"Bemaßung",text:"Text"};
 function svgNode(tag,attrs={},parent){const n=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs))n.setAttribute(k,v);if(parent)parent.append(n);return n}
 function symbol(e){const g=svgNode("g",{stroke:"#18212c","stroke-width":2,fill:"none","stroke-linejoin":"round"});
 const path=d=>svgNode("path",{d},g);
