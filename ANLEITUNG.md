@@ -1,0 +1,51 @@
+# TM-Draw 1.0.0 – Bedienungsanleitung
+
+Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://kn-rbg.github.io/Programm_technische_Mechanik/
+
+## Start und Offline-Nutzung
+Repository als ZIP herunterladen, vollständig entpacken und index.html öffnen. Die Ordner css und js müssen erhalten bleiben. Kein Server und keine Installation erforderlich. Browserabhängige Speicher- und Vollbildfunktionen können lokal eingeschränkt sein.
+
+## Oberfläche
+Menüs Datei, Bearbeiten, Ansicht, Anordnen, Export, Hilfe. Werkzeugleiste für häufige Befehle. Links 22 Symbole in sieben Kategorien, rechts Eigenschaften des gewählten Elements. Statusleiste für Raster, Fang, Maßstäbe und Zoom. Trennbalken ziehen; Doppelklick stellt Standardbreite wieder her. Seitenleisten separat ausblendbar. Vollbild über Werkzeugleiste. Rasterfläche wächst bei unverändertem Zoom. Oberflächeneinstellungen werden lokal gespeichert; Ansicht bietet Rücksetzen.
+
+## Zeichnen und Auswählen
+Symbol anklicken und platzieren oder hineinziehen. Rasterfang und Bauteilfang unabhängig; Fangpunkte separat anzeigen. Mausrad zoomt, mittlere Maustaste verschiebt Ansicht. Strg-Klick erweitert Auswahl; Alt-Klick wählt einzelnes Gruppenmitglied. Auswahlrahmen links nach rechts erfasst vollständig enthaltene, rechts nach links überlappende Elemente. Auswahlrahmen-Werkzeug funktioniert auch über vorhandenen Elementen. Entf löscht, Strg+Z/Y macht rückgängig/wiederholt. Eigenschaften ermöglichen numerische Position, Winkel und Abmessungen. Drehgriff, Umschalt für 15-Grad-Schritte.
+
+## Maßstäbe
+Statusleiste oder Ansicht > Maßstabseinstellungen. Ein Rasterkästchen = 20 Zeichnungseinheiten. Kraftmaßstab in N/Kästchen, Längenmaßstab in mm/cm/m pro Kästchen. Einheitenwechsel rechnet um. Übernehmen bestätigt, Abbrechen verwirft. Maßstäbe gehören zur Projektdatei.
+
+## Symbole
+- Bauteile: Balken, Gelenk, Knotenpunkt, Fachwerkstab.
+- Lager: Festlager, Loslager, Einspannung.
+- Kräfte: Einzelkraft (rot), Moment, Streckenlast, Wirkungslinie.
+- Seile und Rollen: Seil, Umlenkrolle.
+- Bemaßung: dynamische, freie und manuelle Maße.
+- Geometrie: Linie, Rechteck, Kreis, Ellipse, Polygon, freies Polygon.
+- Text und Koordinatensystem.
+
+Balken: Länge/Höhe und Winkel. Lager, Kräfte und Knoten können an Balken befestigt werden und folgen der Bewegung; Verbindung in Eigenschaften lösen. Fachwerkstab und Seil: Anfangs- und Endpunkt anklicken, Bezugspunkte neu wählen oder lösen. Alt ermöglicht freie Punkte. Umlenkrollen: Seile tangential verbinden; bei zwei tangentialen Seilen automatischer Seilbogen, andere Umschlingungsseite oder aus.
+
+Kräfte: Betrag, Richtung (0° rechts, 90° oben), Bezeichnung, Betrag/Winkel optional anzeigen. F_1 oder F_{Ax} erzeugt Index. Beschriftungen verschiebbar. Umschalt beim Ziehen des Kraftpfeils verschiebt entlang der Wirkungslinie und löst die Befestigung. Wirkungslinie an Kraft koppeln oder frei platzieren. Moment: Betrag, Pfeilradius, Drehsinn. Streckenlast: zwei Punkte, q1/q2, Einheit N/m oder kN/m, Lastmaßstab, Richtung, Pfeilanzahl.
+
+## Bemaßung
+Modus in der Symbolbibliothek wählen. Automatisch/Fangpunkte: zwei Bezugspunkte anklicken, dritter Klick legt Abstand der Maßlinie fest. Frei: ohne Fang; manuell: Position und Maße über Eigenschaften. Horizontal, vertikal oder direkt. Dynamische Maße folgen Bezugspunkten. Textposition, Textrichtung, Pfeilgröße, Außenpfeile, Abstand und Beschriftung anpassen. Bezugspunkte neu wählen oder in manuelle Bemaßung umwandeln.
+
+## Geometrie und Achsen
+Formen mit Abmessungen, Linienart, Farbe, Stärke und optionaler Füllung. Freies Polygon: Eckpunkte anklicken, Doppelklick oder Enter beendet; blaue Eckpunkte ziehen, weiße Mittelpunkte fügen Eckpunkte hinzu, Alt-Klick entfernt (mindestens drei). Koordinatensystem: positive/negative Achsen, Beschriftung, Teilstriche, Zahlenwerte, Schriftgröße und Drehung.
+
+## Anordnen
+Mehrere Elemente auswählen, gruppieren oder Gruppierung aufheben. Gruppen werden gemeinsam bewegt, gedreht, dupliziert. Zeichenreihenfolge vorne/hinten bzw. eine Ebene vor/zurück. Ausrichten an linken/rechten/oberen/unteren Kanten oder Mittelpunkten; Verteilen X/Y ab drei Einheiten mit gleichen Zwischenräumen. Spiegeln horizontal/vertikal um Auswahlmittelpunkt. Bei aufzulösenden externen Verbindungen erscheint eine Abfrage. Komplexe dynamische Verbindungen und gespiegelte Bemaßungen im Einzelfall kontrollieren.
+
+## Speichern und Export
+Projekt als JSON speichern oder öffnen; enthält Elemente, Gruppen, Verbindungen und Maßstäbe. Speichern unter ermöglicht neuen Namen. Je nach Browser direkter Dateidialog oder Download. Firefox: Download-Einstellung „Jedes Mal nachfragen, wo eine Datei gespeichert werden soll“ optional aktivieren.
+
+Export: ganze Zeichnung oder Auswahl, Rand, optional Raster und transparenter Hintergrund.
+- SVG: skalierbare Vektorgrafik.
+- PNG: 96/150/300/600 dpi oder Pixelbreite, Höhe automatisch.
+- PDF: Vektorgrafik, automatische Größe oder A4/A5, Hoch-/Querformat, Zeichnungsbreite.
+- PSTricks: pspicture-Ausschnitt oder vollständiges LaTeX-Dokument mit eigener Präambel (Latin-1). Code kopieren oder Datei exportieren. Vollständiges Dokument mit pdfLaTeX und -shell-escape kompilieren; auto-pst-pdf erzeugt die Zwischenbilder. Für Ausschnitte gilt die Kompilierung des Zieldokuments.
+
+## Freigabestand und Ausblick
+1.0.0 basiert auf 0.9.6. Die grundlegenden Zeichen- und Exportfunktionen sowie die schrittweisen Oberflächenänderungen wurden im Projektverlauf getestet; ein vollständiger abschließender Regressionstest wurde bewusst nicht durchgeführt. Vollbild, Persistenz, komplexe Spiegelungen und alle Kombinationen im Unterrichtsbetrieb weiter prüfen. Fehler bei Bedarf korrigieren.
+
+Zurückgestellt: Formatpinsel, eigene Symbolbibliothek, Aufgabenvorlagen. Keine dieser Funktionen ist in 1.0.0 enthalten.
