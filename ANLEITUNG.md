@@ -1,4 +1,4 @@
-# TM-Draw 1.0.1 – Bedienungsanleitung
+# TM-Draw 1.0.2 – Bedienungsanleitung
 
 Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://kn-rbg.github.io/Programm_technische_Mechanik/
 
@@ -37,7 +37,7 @@ Formen mit Abmessungen, Linienart, Farbe, Stärke und optionaler Füllung. Freie
 Mehrere Elemente auswählen, gruppieren oder Gruppierung aufheben. Gruppen werden gemeinsam bewegt, gedreht, dupliziert. Zeichenreihenfolge vorne/hinten bzw. eine Ebene vor/zurück. Ausrichten an linken/rechten/oberen/unteren Kanten oder Mittelpunkten; Verteilen X/Y ab drei Einheiten mit gleichen Zwischenräumen. Spiegeln horizontal/vertikal um Auswahlmittelpunkt. Bei aufzulösenden externen Verbindungen erscheint eine Abfrage. Komplexe dynamische Verbindungen und gespiegelte Bemaßungen im Einzelfall kontrollieren.
 
 ## Speichern und Export
-Vor dem Schließen oder Neuladen speichern; eine automatische Zwischenspeicherung ist noch nicht vorhanden. Projekt als JSON speichern oder öffnen; enthält Elemente, Gruppen, Verbindungen und Maßstäbe. Speichern unter ermöglicht neuen Namen. Je nach Browser direkter Dateidialog oder Download. Firefox: Download-Einstellung „Jedes Mal nachfragen, wo eine Datei gespeichert werden soll“ optional aktivieren.
+Vor dem Schließen als JSON speichern. Datei > Neues Projekt erzeugt eine leere Zeichnung mit Standardmaßstäben. Vor dem Verwerfen ungespeicherter Änderungen wird gewarnt. Die automatische Zwischenspeicherung prüft etwa alle 1,5 Sekunden auf Änderungen und legt eine lokale Wiederherstellungskopie an. Beim Neustart wird die Wiederherstellung angeboten. Unter Datei lässt sich die Autosicherung abschalten; dabei wird die lokale Kopie nach Rückfrage gelöscht. Die Sicherung ist an Browser und Profil gebunden und ersetzt keine JSON-Datei. Bei Browserdownloads kann das Programm den erfolgreichen Abschluss nicht prüfen: Nach dem Speichern im Download-Ordner unter Datei > Download als gespeichert bestätigen die Speicherung ausdrücklich bestätigen. Nur einen Editor-Tab gleichzeitig verwenden. Projekt als JSON speichern oder öffnen; enthält Elemente, Gruppen, Verbindungen und Maßstäbe. Speichern unter ermöglicht neuen Namen. Je nach Browser direkter Dateidialog oder Download. Firefox: Download-Einstellung „Jedes Mal nachfragen, wo eine Datei gespeichert werden soll“ optional aktivieren.
 
 Export: ganze Zeichnung oder Auswahl, Rand, optional Raster und transparenter Hintergrund.
 - SVG: skalierbare Vektorgrafik.
@@ -46,11 +46,14 @@ Export: ganze Zeichnung oder Auswahl, Rand, optional Raster und transparenter Hi
 - PSTricks: pspicture-Ausschnitt oder vollständiges LaTeX-Dokument mit eigener Präambel (Latin-1). Code kopieren oder Datei exportieren. Vollständiges Dokument mit pdfLaTeX und -shell-escape kompilieren; auto-pst-pdf erzeugt die Zwischenbilder. Für Ausschnitte gilt die Kompilierung des Zieldokuments.
 
 ## Freigabestand und Ausblick
-1.0.1 ergänzt die Dokumentation; die Zeichnungslogik bleibt unverändert. 1.0.0 basiert auf 0.9.6. Die grundlegenden Zeichen- und Exportfunktionen sowie die schrittweisen Oberflächenänderungen wurden im Projektverlauf getestet; ein vollständiger abschließender Regressionstest wurde bewusst nicht durchgeführt. Vollbild, Persistenz, komplexe Spiegelungen und alle Kombinationen im Unterrichtsbetrieb weiter prüfen. Fehler bei Bedarf korrigieren.
+1.0.2 ergänzt neues Projekt und lokale Wiederherstellung. 1.0.1 ergänzt die Dokumentation; die Zeichnungslogik bleibt unverändert. 1.0.0 basiert auf 0.9.6. Die grundlegenden Zeichen- und Exportfunktionen sowie die schrittweisen Oberflächenänderungen wurden im Projektverlauf getestet; ein vollständiger abschließender Regressionstest wurde bewusst nicht durchgeführt. Vollbild, Persistenz, komplexe Spiegelungen und alle Kombinationen im Unterrichtsbetrieb weiter prüfen. Fehler bei Bedarf korrigieren.
 
-Zurückgestellt: Formatpinsel, eigene Symbolbibliothek, Aufgabenvorlagen. Keine dieser Funktionen ist in 1.0.1 enthalten.
+Zurückgestellt: Formatpinsel, eigene Symbolbibliothek, Aufgabenvorlagen. Keine dieser Funktionen ist in 1.0.2 enthalten.
 
 # Versionshistorie
+
+## 1.0.2
+Neues Projekt, Sicherheitsabfragen, lokale Wiederherstellung und Speicherstatus.
 
 ## 1.0.1
 PDF-Kurzanleitung im Hilfemenü, Versionshistorie und aktualisierte Dokumentation.

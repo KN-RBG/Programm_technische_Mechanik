@@ -1,5 +1,8 @@
 # Versionshistorie
 
+## 1.0.2
+Neues Projekt, Sicherheitsabfragen, lokale Wiederherstellung und Speicherstatus.
+
 ## 1.0.1
 PDF-Kurzanleitung im Hilfemenü, Versionshistorie und aktualisierte Dokumentation.
 
