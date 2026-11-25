@@ -1,4 +1,4 @@
-# TM-Draw 1.0.0 – Bedienungsanleitung
+# TM-Draw 1.0.1 – Bedienungsanleitung
 
 Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://kn-rbg.github.io/Programm_technische_Mechanik/
 
@@ -6,7 +6,7 @@ Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://
 Repository als ZIP herunterladen, vollständig entpacken und index.html öffnen. Die Ordner css und js müssen erhalten bleiben. Kein Server und keine Installation erforderlich. Browserabhängige Speicher- und Vollbildfunktionen können lokal eingeschränkt sein.
 
 ## Oberfläche
-Menüs Datei, Bearbeiten, Ansicht, Anordnen, Export, Hilfe. Werkzeugleiste für häufige Befehle. Links 22 Symbole in sieben Kategorien, rechts Eigenschaften des gewählten Elements. Statusleiste für Raster, Fang, Maßstäbe und Zoom. Trennbalken ziehen; Doppelklick stellt Standardbreite wieder her. Seitenleisten separat ausblendbar. Vollbild über Werkzeugleiste. Rasterfläche wächst bei unverändertem Zoom. Oberflächeneinstellungen werden lokal gespeichert; Ansicht bietet Rücksetzen.
+Menüs Datei, Bearbeiten, Ansicht, Anordnen, Export, Hilfe. Werkzeugleiste für häufige Befehle. Links 22 Symbole in sieben Kategorien, rechts Eigenschaften des gewählten Elements. Statusleiste für Raster, Fang, Maßstäbe und Zoom. Trennbalken ziehen; Doppelklick stellt Standardbreite wieder her. Seitenleisten separat ausblendbar. Vollbild über Werkzeugleiste. Rasterfläche wächst bei unverändertem Zoom. Oberflächeneinstellungen werden lokal gespeichert; Ansicht bietet Rücksetzen. Lange Symbolbezeichnungen umbrechen automatisch. Hilfe enthält die PDF-Kurzanleitung und Versionshistorie.
 
 ## Zeichnen und Auswählen
 Symbol anklicken und platzieren oder hineinziehen. Rasterfang und Bauteilfang unabhängig; Fangpunkte separat anzeigen. Mausrad zoomt, mittlere Maustaste verschiebt Ansicht. Strg-Klick erweitert Auswahl; Alt-Klick wählt einzelnes Gruppenmitglied. Auswahlrahmen links nach rechts erfasst vollständig enthaltene, rechts nach links überlappende Elemente. Auswahlrahmen-Werkzeug funktioniert auch über vorhandenen Elementen. Entf löscht, Strg+Z/Y macht rückgängig/wiederholt. Eigenschaften ermöglichen numerische Position, Winkel und Abmessungen. Drehgriff, Umschalt für 15-Grad-Schritte.
@@ -37,7 +37,7 @@ Formen mit Abmessungen, Linienart, Farbe, Stärke und optionaler Füllung. Freie
 Mehrere Elemente auswählen, gruppieren oder Gruppierung aufheben. Gruppen werden gemeinsam bewegt, gedreht, dupliziert. Zeichenreihenfolge vorne/hinten bzw. eine Ebene vor/zurück. Ausrichten an linken/rechten/oberen/unteren Kanten oder Mittelpunkten; Verteilen X/Y ab drei Einheiten mit gleichen Zwischenräumen. Spiegeln horizontal/vertikal um Auswahlmittelpunkt. Bei aufzulösenden externen Verbindungen erscheint eine Abfrage. Komplexe dynamische Verbindungen und gespiegelte Bemaßungen im Einzelfall kontrollieren.
 
 ## Speichern und Export
-Projekt als JSON speichern oder öffnen; enthält Elemente, Gruppen, Verbindungen und Maßstäbe. Speichern unter ermöglicht neuen Namen. Je nach Browser direkter Dateidialog oder Download. Firefox: Download-Einstellung „Jedes Mal nachfragen, wo eine Datei gespeichert werden soll“ optional aktivieren.
+Vor dem Schließen oder Neuladen speichern; eine automatische Zwischenspeicherung ist noch nicht vorhanden. Projekt als JSON speichern oder öffnen; enthält Elemente, Gruppen, Verbindungen und Maßstäbe. Speichern unter ermöglicht neuen Namen. Je nach Browser direkter Dateidialog oder Download. Firefox: Download-Einstellung „Jedes Mal nachfragen, wo eine Datei gespeichert werden soll“ optional aktivieren.
 
 Export: ganze Zeichnung oder Auswahl, Rand, optional Raster und transparenter Hintergrund.
 - SVG: skalierbare Vektorgrafik.
@@ -46,6 +46,44 @@ Export: ganze Zeichnung oder Auswahl, Rand, optional Raster und transparenter Hi
 - PSTricks: pspicture-Ausschnitt oder vollständiges LaTeX-Dokument mit eigener Präambel (Latin-1). Code kopieren oder Datei exportieren. Vollständiges Dokument mit pdfLaTeX und -shell-escape kompilieren; auto-pst-pdf erzeugt die Zwischenbilder. Für Ausschnitte gilt die Kompilierung des Zieldokuments.
 
 ## Freigabestand und Ausblick
-1.0.0 basiert auf 0.9.6. Die grundlegenden Zeichen- und Exportfunktionen sowie die schrittweisen Oberflächenänderungen wurden im Projektverlauf getestet; ein vollständiger abschließender Regressionstest wurde bewusst nicht durchgeführt. Vollbild, Persistenz, komplexe Spiegelungen und alle Kombinationen im Unterrichtsbetrieb weiter prüfen. Fehler bei Bedarf korrigieren.
+1.0.1 ergänzt die Dokumentation; die Zeichnungslogik bleibt unverändert. 1.0.0 basiert auf 0.9.6. Die grundlegenden Zeichen- und Exportfunktionen sowie die schrittweisen Oberflächenänderungen wurden im Projektverlauf getestet; ein vollständiger abschließender Regressionstest wurde bewusst nicht durchgeführt. Vollbild, Persistenz, komplexe Spiegelungen und alle Kombinationen im Unterrichtsbetrieb weiter prüfen. Fehler bei Bedarf korrigieren.
 
-Zurückgestellt: Formatpinsel, eigene Symbolbibliothek, Aufgabenvorlagen. Keine dieser Funktionen ist in 1.0.0 enthalten.
+Zurückgestellt: Formatpinsel, eigene Symbolbibliothek, Aufgabenvorlagen. Keine dieser Funktionen ist in 1.0.1 enthalten.
+
+# Versionshistorie
+
+## 1.0.1
+PDF-Kurzanleitung im Hilfemenü, Versionshistorie und aktualisierte Dokumentation.
+
+## 1.0.0
+Erste Produktivversion auf Grundlage von 0.9.6.
+
+## 0.9.6
+Responsive Symbolkacheln, Textumbruch und Tooltips.
+
+## 0.9.5
+Vollbild und lokal gespeicherte Oberflächeneinstellungen.
+
+## 0.9.4 / 0.9.4.1
+Flexible Seitenleisten und dynamische Rasterfläche.
+
+## 0.9.1–0.9.3
+Symbolkategorien, Eigenschaften und Maßstabsdialog.
+
+## 0.9.0
+Menü-, Werkzeug- und Statusleiste.
+
+## 0.7.0–0.7.1
+Ausrichten, Verteilen und Spiegeln.
+
+## 0.6.0–0.6.6
+SVG, PNG, PDF und PSTricks.
+
+## 0.5.x
+Geometrie, Gruppen, Zeichenreihenfolge und Auswahlrahmen.
+
+## 0.4.x
+Momente, Streckenlasten, Bemaßungen, Knoten, Achsen, Wirkungslinien, Seile und Rollen.
+
+## 0.1–0.3.x
+Grundeditor, Kräfte, Lager, Maßstäbe, Fangfunktionen, Auswahl und Verlauf.

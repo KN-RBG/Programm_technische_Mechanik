@@ -1,0 +1,168 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4754 >>
+stream
+BT /F2 20 Tf 0.13 0.19 0.27 rg 43 790 Td (TM-Draw 1.0.1 - Kurzanleitung) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 754 Td (Browserbasierter Zeichnungseditor für die Technische Mechanik. Online:) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 738.5 Td (https://kn-rbg.github.io/Programm_technische_Mechanik/) Tj ET
+BT /F2 14 Tf 0.13 0.19 0.27 rg 43 717 Td (Start und Offline-Nutzung) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 693 Td (Repository als ZIP herunterladen, vollständig entpacken und index.html öffnen. Die) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 677.5 Td (Ordner css und js müssen erhalten bleiben. Kein Server und keine Installation) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 662 Td (erforderlich. Browserabhängige Speicher- und Vollbildfunktionen können lokal) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 646.5 Td (eingeschränkt sein.) Tj ET
+BT /F2 14 Tf 0.13 0.19 0.27 rg 43 625 Td (Oberfläche) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 601 Td (Menüs Datei, Bearbeiten, Ansicht, Anordnen, Export, Hilfe. Werkzeugleiste für häufige) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 585.5 Td (Befehle. Links 22 Symbole in sieben Kategorien, rechts Eigenschaften des gewählten) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 570 Td (Elements. Statusleiste für Raster, Fang, Maßstäbe und Zoom. Trennbalken ziehen;) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 554.5 Td (Doppelklick stellt Standardbreite wieder her. Seitenleisten separat ausblendbar.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 539 Td (Vollbild über Werkzeugleiste. Rasterfläche wächst bei unverändertem Zoom.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 523.5 Td (Oberflächeneinstellungen werden lokal gespeichert; Ansicht bietet Rücksetzen. Lange) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 508 Td (Symbolbezeichnungen umbrechen automatisch. Die Eigenschaften sind thematisch gegliedert) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 492.5 Td (und ihr Aufklappzustand wird je Symboltyp gespeichert. Hilfe enthält eine) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 477 Td (PDF-Kurzanleitung und die Versionshistorie.) Tj ET
+BT /F2 14 Tf 0.13 0.19 0.27 rg 43 455.5 Td (Zeichnen und Auswählen) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 431.5 Td (Symbol anklicken und platzieren oder hineinziehen. Rasterfang und Bauteilfang) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 416 Td (unabhängig; Fangpunkte separat anzeigen. Mausrad zoomt, mittlere Maustaste verschiebt) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 400.5 Td (Ansicht. Strg-Klick erweitert Auswahl; Alt-Klick wählt einzelnes Gruppenmitglied.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 385 Td (Auswahlrahmen links nach rechts erfasst vollständig enthaltene, rechts nach links) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 369.5 Td (überlappende Elemente. Auswahlrahmen-Werkzeug funktioniert auch über vorhandenen) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 354 Td (Elementen. Entf löscht, Strg+Z/Y macht rückgängig/wiederholt. Eigenschaften ermöglichen) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 338.5 Td (numerische Position, Winkel und Abmessungen. Drehgriff, Umschalt für 15-Grad-Schritte.) Tj ET
+BT /F2 14 Tf 0.13 0.19 0.27 rg 43 317 Td (Maßstäbe) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 293 Td (Statusleiste oder Ansicht > Maßstabseinstellungen. Ein Rasterkästchen = 20) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 277.5 Td (Zeichnungseinheiten. Kraftmaßstab in N/Kästchen, Längenmaßstab in mm/cm/m pro Kästchen.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 262 Td (Einheitenwechsel rechnet um. Übernehmen bestätigt, Abbrechen verwirft. Maßstäbe gehören) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 246.5 Td (zur Projektdatei.) Tj ET
+BT /F2 14 Tf 0.13 0.19 0.27 rg 43 225 Td (Symbole) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 201 Td (- Bauteile: Balken, Gelenk, Knotenpunkt, Fachwerkstab.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 185.5 Td (- Lager: Festlager, Loslager, Einspannung.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 170 Td (- Kräfte: Einzelkraft \(rot\), Moment, Streckenlast, Wirkungslinie.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 154.5 Td (- Seile und Rollen: Seil, Umlenkrolle.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 139 Td (- Bemaßung: dynamische, freie und manuelle Maße.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 123.5 Td (- Geometrie: Linie, Rechteck, Kreis, Ellipse, Polygon, freies Polygon.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 108 Td (- Text und Koordinatensystem.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 86.5 Td (Balken: Länge/Höhe und Winkel. Lager, Kräfte und Knoten können an Balken befestigt) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 71 Td (werden und folgen der Bewegung; Verbindung in Eigenschaften lösen. Fachwerkstab und) Tj ET
+BT /F1 9 Tf 0.3 0.35 0.4 rg 43 30 Td (TM-Draw 1.0.1 - Kurzanleitung | 1/3) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 5284 >>
+stream
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 790 Td (Seil: Anfangs- und Endpunkt anklicken, Bezugspunkte neu wählen oder lösen. Alt) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 774.5 Td (ermöglicht freie Punkte. Umlenkrollen: Seile tangential verbinden; bei zwei) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 759 Td (tangentialen Seilen automatischer Seilbogen, andere Umschlingungsseite oder aus.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 737.5 Td (Kräfte: Betrag, Richtung \(0° rechts, 90° oben\), Bezeichnung, Betrag/Winkel optional) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 722 Td (anzeigen. F_1 oder F_{Ax} erzeugt Index. Beschriftungen verschiebbar. Umschalt beim) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 706.5 Td (Ziehen des Kraftpfeils verschiebt entlang der Wirkungslinie und löst die Befestigung.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 691 Td (Wirkungslinie an Kraft koppeln oder frei platzieren. Moment: Betrag, Pfeilradius,) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 675.5 Td (Drehsinn. Streckenlast: zwei Punkte, q1/q2, Einheit N/m oder kN/m, Lastmaßstab,) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 660 Td (Richtung, Pfeilanzahl.) Tj ET
+BT /F2 14 Tf 0.13 0.19 0.27 rg 43 638.5 Td (Bemaßung) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 614.5 Td (Modus in der Symbolbibliothek wählen. Automatisch/Fangpunkte: zwei Bezugspunkte) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 599 Td (anklicken, dritter Klick legt Abstand der Maßlinie fest. Frei: ohne Fang; manuell:) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 583.5 Td (Position und Maße über Eigenschaften. Horizontal, vertikal oder direkt. Dynamische Maße) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 568 Td (folgen Bezugspunkten. Textposition, Textrichtung, Pfeilgröße, Außenpfeile, Abstand und) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 552.5 Td (Beschriftung anpassen. Bezugspunkte neu wählen oder in manuelle Bemaßung umwandeln.) Tj ET
+BT /F2 14 Tf 0.13 0.19 0.27 rg 43 531 Td (Geometrie und Achsen) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 507 Td (Formen mit Abmessungen, Linienart, Farbe, Stärke und optionaler Füllung. Freies) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 491.5 Td (Polygon: Eckpunkte anklicken, Doppelklick oder Enter beendet; blaue Eckpunkte ziehen,) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 476 Td (weiße Mittelpunkte fügen Eckpunkte hinzu, Alt-Klick entfernt \(mindestens drei\).) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 460.5 Td (Koordinatensystem: positive/negative Achsen, Beschriftung, Teilstriche, Zahlenwerte,) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 445 Td (Schriftgröße und Drehung.) Tj ET
+BT /F2 14 Tf 0.13 0.19 0.27 rg 43 423.5 Td (Anordnen) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 399.5 Td (Mehrere Elemente auswählen, gruppieren oder Gruppierung aufheben. Gruppen werden) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 384 Td (gemeinsam bewegt, gedreht, dupliziert. Zeichenreihenfolge vorne/hinten bzw. eine Ebene) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 368.5 Td (vor/zurück. Ausrichten an linken/rechten/oberen/unteren Kanten oder Mittelpunkten;) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 353 Td (Verteilen X/Y ab drei Einheiten mit gleichen Zwischenräumen. Spiegeln) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 337.5 Td (horizontal/vertikal um Auswahlmittelpunkt. Bei aufzulösenden externen Verbindungen) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 322 Td (erscheint eine Abfrage. Komplexe dynamische Verbindungen und gespiegelte Bemaßungen im) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 306.5 Td (Einzelfall kontrollieren.) Tj ET
+BT /F2 14 Tf 0.13 0.19 0.27 rg 43 285 Td (Speichern und Export) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 261 Td (Vor dem Schließen oder Neuladen speichern; eine automatische Zwischenspeicherung ist) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 245.5 Td (noch nicht vorhanden. Projekt als JSON speichern oder öffnen; enthält Elemente,) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 230 Td (Gruppen, Verbindungen und Maßstäbe. Speichern unter ermöglicht neuen Namen. Je nach) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 214.5 Td (Browser direkter Dateidialog oder Download. Firefox: Download-Einstellung "Jedes Mal) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 199 Td (nachfragen, wo eine Datei gespeichert werden soll" optional aktivieren.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 177.5 Td (Export: ganze Zeichnung oder Auswahl, Rand, optional Raster und transparenter) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 162 Td (Hintergrund.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 146.5 Td (- SVG: skalierbare Vektorgrafik.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 131 Td (- PNG: 96/150/300/600 dpi oder Pixelbreite, Höhe automatisch.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 115.5 Td (- PDF: Vektorgrafik, automatische Größe oder A4/A5, Hoch-/Querformat, Zeichnungsbreite.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 100 Td (- PSTricks: pspicture-Ausschnitt oder vollständiges LaTeX-Dokument mit eigener Präambel) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 84.5 Td (\(Latin-1\). Code kopieren oder Datei exportieren. Vollständiges Dokument mit pdfLaTeX) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 69 Td (und -shell-escape kompilieren; auto-pst-pdf erzeugt die Zwischenbilder. Für Ausschnitte) Tj ET
+BT /F1 9 Tf 0.3 0.35 0.4 rg 43 30 Td (TM-Draw 1.0.1 - Kurzanleitung | 2/3) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 3007 >>
+stream
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 790 Td (gilt die Kompilierung des Zieldokuments.) Tj ET
+BT /F2 14 Tf 0.13 0.19 0.27 rg 43 768.5 Td (Freigabestand und Ausblick) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 744.5 Td (1.0.1 ergänzt die Dokumentation von 1.0.0; die Zeichnungslogik ist unverändert. 1.0.0) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 729 Td (basiert auf 0.9.6. Die grundlegenden Zeichen- und Exportfunktionen sowie die) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 713.5 Td (schrittweisen Oberflächenänderungen wurden im Projektverlauf getestet; ein) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 698 Td (vollständiger abschließender Regressionstest wurde bewusst nicht durchgeführt.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 682.5 Td (Vollbild, Persistenz, komplexe Spiegelungen und alle Kombinationen im) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 667 Td (Unterrichtsbetrieb weiter prüfen. Fehler bei Bedarf korrigieren.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 645.5 Td (Zurückgestellt: Formatpinsel, eigene Symbolbibliothek, Aufgabenvorlagen. Keine dieser) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 630 Td (Funktionen ist in 1.0.1 enthalten. Als Nächstes sind ein neues Projekt und automatische) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 614.5 Td (Zwischenspeicherung vorgesehen.) Tj ET
+BT /F2 14 Tf 0.13 0.19 0.27 rg 43 593 Td (Versionshistorie) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 569 Td (- 1.0.1: PDF-Kurzanleitung im Hilfemenü, Versionshistorie und aktualisierte) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 553.5 Td (Dokumentation.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 538 Td (- 1.0.0: Erste Produktivversion; Basis 0.9.6.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 522.5 Td (- 0.9.6: Responsive Symbolkacheln, Textumbruch und Tooltips.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 507 Td (- 0.9.5: Vollbild und lokal gespeicherte Oberflächeneinstellungen.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 491.5 Td (- 0.9.4 / 0.9.4.1: Flexible Seitenleisten und dynamische Rasterfläche.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 476 Td (- 0.9.1-0.9.3: Symbolkategorien, Eigenschaftengruppen und Maßstabsdialog.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 460.5 Td (- 0.9.0: Menüleiste, Werkzeugleiste und Statusleiste.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 445 Td (- 0.7.0-0.7.1: Ausrichten, Verteilen und Spiegeln.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 429.5 Td (- 0.6.0-0.6.6: SVG, PNG, PDF und PSTricks mit eigener Präambel.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 414 Td (- 0.5.x: Geometrie, Gruppen, Zeichenreihenfolge und Auswahlrahmen.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 398.5 Td (- 0.4.x: Momente, Streckenlasten, dynamische Maße, Knoten, Achsen, Wirkungslinien,) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 383 Td (Seile und Rollen.) Tj ET
+BT /F1 10.5 Tf 0.13 0.19 0.27 rg 43 367.5 Td (- 0.1-0.3.x: Grundeditor, Lager, Kräfte, Maßstäbe, Fangfunktionen, Auswahl und Verlauf.) Tj ET
+BT /F1 9 Tf 0.3 0.35 0.4 rg 43 30 Td (TM-Draw 1.0.1 - Kurzanleitung | 3/3) Tj ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000000224 00000 n 
+0000000326 00000 n 
+0000000462 00000 n 
+0000005267 00000 n 
+0000005403 00000 n 
+0000010738 00000 n 
+0000010875 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+13934
+%%EOF
