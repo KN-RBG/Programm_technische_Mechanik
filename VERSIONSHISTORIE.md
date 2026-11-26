@@ -1,5 +1,11 @@
 # Versionshistorie
 
+## 1.2.1
+Ausgewählte Teilkörper: Balken oder geometrische Bauteile auswählen (Strg-Klick für mehrere; Alt-Klick für einzelne Gruppenmitglieder). Freischnitt > Ausgewählte Teilkörper freischneiden. Verbundene Lager und Einzelkräfte/Momente werden übernommen, Streckenlasten mit beiden zugeordneten Bezugspunkten ebenfalls. Ungebundene Lasten und Beschriftungen bei Bedarf ausdrücklich mit auswählen. Unklare Verbindungen werden gemeldet, Gelenk-/Stab-/Seilkräfte und Schnittgrößen noch manuell ergänzen. Original bleibt erhalten, Kopie rechts. Benennung F_{AH}, F_{AV}, F_{B}, M_{C}.
+
+## 1.2.0.1
+Lagerkraftbezeichnungen mit H/V-Indizes.
+
 ## 1.2.0
 Automatischer Freischnitt einfacher Gesamtsysteme: Menü Freischnitt > Gesamtsystem freischneiden. Kopie rechts neben dem Original, unbekannte blaue Reaktionen mit grafischer Pfeillänge. Festlager zwei Kraftkomponenten, Loslager normal zur Lagerfläche, Einspannung zwei Kraftkomponenten und Moment. Vorhandene Lasten bleiben unverändert. Keine Berechnung, keine inneren Schnittkräfte. Mehrfaches Freischneiden derselben Zeichnung wird verhindert. Rückgängig entfernt den erzeugten Freischnitt.
 
