@@ -1,4 +1,4 @@
-# TM-Draw 2.0.0 – Bedienungsanleitung
+# TM-Draw 2.0.1 – Bedienungsanleitung
 
 Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://kn-rbg.github.io/Programm_technische_Mechanik/
 
@@ -74,3 +74,6 @@ Seitenregister unter der Zeichenfläche: neu, umbenennen, duplizieren, verschieb
 
 ## Abschlussstand 2.0.0
 Der vereinbarte Funktionsumfang ist implementiert. Die Anwendung ist ein Zeichenwerkzeug, kein Statiksolver. Modellannahmen, Kraftangriffspunkte und Verbindungen vor der Verwendung kontrollieren. Ein vollständiger Browser-Regressionstest steht noch aus. Zurückgestellt bleiben Ebenen, Ausblenden von Objekten, Zeichenblattformate im Editor, Formatpinsel, eigene Symbolbibliothek, Aufgabenvorlagen, Übungsmodus und automatische Gleichgewichtsberechnung.
+
+## Korrektur 2.0.1
+Korrektur: Ziehen an Kraft-, Winkel- und Maßbeschriftungen wählt das einzelne Objekt, unabhängig von Gruppenzugehörigkeit oder benachbarten Knoten. Nur Textversatz wird verändert; Angriffspunkt, Befestigung und Gruppierung bleiben erhalten. Objektsperre bleibt wirksam.

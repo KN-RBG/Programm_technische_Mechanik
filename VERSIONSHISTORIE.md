@@ -1,5 +1,8 @@
 # Versionshistorie
 
+## 2.0.1
+Korrektur: Ziehen an Kraft-, Winkel- und Maßbeschriftungen wählt das einzelne Objekt, unabhängig von Gruppenzugehörigkeit oder benachbarten Knoten. Nur Textversatz wird verändert; Angriffspunkt, Befestigung und Gruppierung bleiben erhalten. Objektsperre bleibt wirksam.
+
 ## 2.0.0
 Mehrseitiger Vektor-PDF-Export, aktualisierte Bedienungsanleitung. Funktionsabschluss; vollständiger praktischer Regressionstest steht aus.
 
