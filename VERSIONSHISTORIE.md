@@ -1,5 +1,8 @@
 # Versionshistorie
 
+## 2.1.5
+Kräftezerlegung: globale und lokale Komponenten erhalten konsequent die Indizes x/y, beispielsweise F_{1x}, F_{1y}, F_{R1x}, F_{R1y}. Dies gilt auch für zuvor aus Strecken- und Flächenlasten erzeugte Resultierende. Globale Achsen horizontal/vertikal, lokale Achsen parallel/senkrecht zum befestigten Balken; ohne Balkenbezug globale Achsen. Beträge und Richtungen bleiben unverändert. Bereits erzeugte Beschriftungen werden nicht rückwirkend geändert. Lastverteilungen selbst werden weiterhin über ihre Resultierenden zerlegt.
+
 ## 2.1.4
 Automatisch erzeugte Lagerreaktionen: Festlager A_x und A_y, Loslager B_y bei horizontaler Auflage, B_x bei vertikaler Auflage, B_n bei schräger Auflage (Normalrichtung). Einspannung C_x, C_y, M_C. Explizite Lagerbezeichnungen bleiben maßgeblich; unbeschriftete Lager erhalten fortlaufende Buchstaben. Gelenk-, Stab-, Seilkräfte und Schnittgrößen bleiben unverändert. Bestehende Freischnitte werden nicht automatisch umbenannt.
 

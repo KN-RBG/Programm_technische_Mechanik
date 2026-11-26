@@ -1,4 +1,4 @@
-# TM-Draw 2.1.4 – Bedienungsanleitung
+# TM-Draw 2.1.5 – Bedienungsanleitung
 
 Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://kn-rbg.github.io/Programm_technische_Mechanik/
 
@@ -58,7 +58,7 @@ Beim Freischnitt ausgewählter Teilkörper werden eindeutig beidseitig verankert
 Balken auswählen; Freischnitt > Balken schneiden (N, Q, M). Abstand vom Balkenanfang in der Längeneinheit eingeben. Ein oder beide Teilkörper werden rechts vom Original erzeugt. Positives Schnittufer: N lokal +x, Q lokal nach unten, M gegen den Uhrzeigersinn; negatives Schnittufer: entgegengesetzt. Befestigte Lager und Punktlasten werden nach ihrer Station zugeordnet, lineare Streckenlasten mit zwei direkten Balkenankern werden interpoliert und geteilt. Schnitt genau auf einer Punktlast/Bindung nicht zulässig. Keine Berechnung; unklare Verbindungen und Bemaßungen manuell ergänzen.
 
 ## Kräftezerlegung (1.2.4)
-Kräftezerlegung in allen Freischnittdialogen sowie Freischnitt > Ausgewählte Kräfte zerlegen. Bekannte schräge Kräfte in H/V oder lokal x/y zerlegen; gleicher Angriffspunkt, exakte Beträge intern, Anzeige sechs signifikante Stellen. Komponenten bleiben rot, unbekannte Lager- und Schnittkräfte blau und unverändert. Optional gestrichelte graue Originalkraft als Konstruktionshilfe (keine zusätzliche Last). Komponenten sind normale bearbeitbare Kräfte mit gemeinsamem Gruppenbezug; keine dynamische Rückrechnung zur Originalkraft. Ohne eindeutigen Balkenbezug globale H/V. Bereits achsparallele Kräfte bleiben unverändert.
+Kräftezerlegung in allen Freischnittdialogen sowie Freischnitt > Ausgewählte Kräfte zerlegen. Bekannte schräge Kräfte in globale oder lokale x/y-Komponenten zerlegen; gleicher Angriffspunkt, exakte Beträge intern, Anzeige sechs signifikante Stellen. Komponenten bleiben rot, unbekannte Lager- und Schnittkräfte blau und unverändert. Optional gestrichelte graue Originalkraft als Konstruktionshilfe (keine zusätzliche Last). Komponenten sind normale bearbeitbare Kräfte mit gemeinsamem Gruppenbezug; keine dynamische Rückrechnung zur Originalkraft. Ohne eindeutigen Balkenbezug globale x/y-Achsen. Bereits achsparallele Kräfte bleiben unverändert.
 
 ## Resultierende von Streckenlasten (1.2.5)
 Resultierende linearer Streckenlasten: in allen Freischnittdialogen optional, außerdem Freischnitt > Resultierende von Streckenlasten für ausgewählte Lasten. Rechteck-, Dreieck- und Trapezlasten mit q1,q2 >= 0 und konstanter Richtung: F_R=(q1+q2)*L/2, Angriffspunkt ab Lastanfang x=L*(q1+2*q2)/(3*(q1+q2)). Länge in m, q in N/m oder kN/m umgerechnet, F in N. Richtung entspricht der Streckenlast. Optional graue gestrichelte Lastverteilung als Konstruktionshilfe. Null-Last bleibt unverändert. Direkte gleichseitige Balkenanker werden interpoliert; sonst freier Angriffspunkt. Resultierende wird vor der optionalen Kräftezerlegung erzeugt; keine dynamische Rückrechnung. Beim Balkenschnitt zuerst Last aufteilen, anschließend Resultierende bilden.
@@ -92,3 +92,6 @@ Freischnitte (Gesamtsystem, Teilkörper und Balkenschnitt) stellen Balken standa
 
 ## Lagerreaktionen (2.1.4)
 Automatisch erzeugte Lagerreaktionen: Festlager A_x und A_y, Loslager B_y bei horizontaler Auflage, B_x bei vertikaler Auflage, B_n bei schräger Auflage (Normalrichtung). Einspannung C_x, C_y, M_C. Explizite Lagerbezeichnungen bleiben maßgeblich; unbeschriftete Lager erhalten fortlaufende Buchstaben. Gelenk-, Stab-, Seilkräfte und Schnittgrößen bleiben unverändert. Bestehende Freischnitte werden nicht automatisch umbenannt.
+
+## Einheitliche Komponentenindizes (2.1.5)
+Kräftezerlegung: globale und lokale Komponenten erhalten konsequent die Indizes x/y, beispielsweise F_{1x}, F_{1y}, F_{R1x}, F_{R1y}. Dies gilt auch für zuvor aus Strecken- und Flächenlasten erzeugte Resultierende. Globale Achsen horizontal/vertikal, lokale Achsen parallel/senkrecht zum befestigten Balken; ohne Balkenbezug globale Achsen. Beträge und Richtungen bleiben unverändert. Bereits erzeugte Beschriftungen werden nicht rückwirkend geändert. Lastverteilungen selbst werden weiterhin über ihre Resultierenden zerlegt.
