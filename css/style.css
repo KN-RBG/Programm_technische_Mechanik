@@ -21,3 +21,5 @@ body{height:100vh;height:100dvh;display:flex;flex-direction:column;overflow:hidd
 #freeBodyDialog{border:1px solid #aab5c2;border-radius:8px;padding:20px;max-width:min(510px,95vw)}#freeBodyLength{width:85px;padding:5px}
 
 #sectionDialog{max-width:min(580px,95vw);border:1px solid #aab5c2;border-radius:8px;padding:20px}#sectionDialog input{width:95px}#sectionDialog select{max-width:100%}
+
+.decomp-fields{margin:12px 0;padding:10px;border:1px solid #aab5c2}.decomp-fields label{display:block;margin:6px 0}.decomp-fields select{max-width:100%}.decomp-fields input[type=checkbox]{width:auto!important}.decomp-fields small{display:block}#decompDialog{max-width:min(580px,95vw);padding:20px;border:1px solid #aab5c2;border-radius:8px}

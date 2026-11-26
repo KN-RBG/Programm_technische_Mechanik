@@ -1,4 +1,4 @@
-# TM-Draw 1.2.3 – Bedienungsanleitung
+# TM-Draw 1.2.4 – Bedienungsanleitung
 
 Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://kn-rbg.github.io/Programm_technische_Mechanik/
 
@@ -102,3 +102,6 @@ Beim Freischnitt ausgewählter Teilkörper werden eindeutig beidseitig verankert
 
 ## Balkenschnitt (1.2.3)
 Balken auswählen; Freischnitt > Balken schneiden (N, Q, M). Abstand vom Balkenanfang in der Längeneinheit eingeben. Ein oder beide Teilkörper werden rechts vom Original erzeugt. Positives Schnittufer: N lokal +x, Q lokal nach unten, M gegen den Uhrzeigersinn; negatives Schnittufer: entgegengesetzt. Befestigte Lager und Punktlasten werden nach ihrer Station zugeordnet, lineare Streckenlasten mit zwei direkten Balkenankern werden interpoliert und geteilt. Schnitt genau auf einer Punktlast/Bindung nicht zulässig. Keine Berechnung; unklare Verbindungen und Bemaßungen manuell ergänzen.
+
+## Kräftezerlegung (1.2.4)
+Kräftezerlegung in allen Freischnittdialogen sowie Freischnitt > Ausgewählte Kräfte zerlegen. Bekannte schräge Kräfte in H/V oder lokal x/y zerlegen; gleicher Angriffspunkt, exakte Beträge intern, Anzeige sechs signifikante Stellen. Komponenten bleiben rot, unbekannte Lager- und Schnittkräfte blau und unverändert. Optional gestrichelte graue Originalkraft als Konstruktionshilfe (keine zusätzliche Last). Komponenten sind normale bearbeitbare Kräfte mit gemeinsamem Gruppenbezug; keine dynamische Rückrechnung zur Originalkraft. Ohne eindeutigen Balkenbezug globale H/V. Bereits achsparallele Kräfte bleiben unverändert.
