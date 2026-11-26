@@ -1,4 +1,4 @@
-# TM-Draw 1.2.1 – Bedienungsanleitung
+# TM-Draw 1.2.2 – Bedienungsanleitung
 
 Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://kn-rbg.github.io/Programm_technische_Mechanik/
 
@@ -96,3 +96,6 @@ Automatischer Freischnitt einfacher Gesamtsysteme: Menü Freischnitt > Gesamtsys
 
 ## Freischnitt ausgewählter Teilkörper (1.2.1)
 Ausgewählte Teilkörper: Balken oder geometrische Bauteile auswählen (Strg-Klick für mehrere; Alt-Klick für einzelne Gruppenmitglieder). Freischnitt > Ausgewählte Teilkörper freischneiden. Verbundene Lager und Einzelkräfte/Momente werden übernommen, Streckenlasten mit beiden zugeordneten Bezugspunkten ebenfalls. Ungebundene Lasten und Beschriftungen bei Bedarf ausdrücklich mit auswählen. Unklare Verbindungen werden gemeldet, Gelenk-/Stab-/Seilkräfte und Schnittgrößen noch manuell ergänzen. Original bleibt erhalten, Kopie rechts. Benennung F_{AH}, F_{AV}, F_{B}, M_{C}.
+
+## Gelenk-, Stab- und Seilkräfte (1.2.2)
+Beim Freischnitt ausgewählter Teilkörper werden eindeutig beidseitig verankerte Seile und Fachwerkstäbe an der Systemgrenze durch angenommene Zugkräfte ersetzt. Innere Verbindungen bleiben erhalten. Ein Gelenk mit einem befestigten Balken und genau einem geometrisch berührenden weiteren Balken wird nur nach ausdrücklicher Bestätigung als Verbindung behandelt. Gegenrichtungen bei getrennten Seiten; H/V-Indizes. Rollen, unklare Mehrfachverbindungen, zusätzliche Stablasten, freie Anker und Endkräfte eines selbst ausgewählten Stabs manuell prüfen. Keine Berechnung der Kraftbeträge.
