@@ -1,5 +1,8 @@
 # Versionshistorie
 
+## 2.0.0
+Mehrseitiger Vektor-PDF-Export, aktualisierte Bedienungsanleitung. Funktionsabschluss; vollständiger praktischer Regressionstest steht aus.
+
 ## 1.4.0
 Seitenregister unter der Zeichenfläche: neu, umbenennen, duplizieren, verschieben, löschen (mindestens eine Seite). Jede Seite hat eigene Elemente und Maßstäbe. JSON Version 6 speichert alle Seiten und aktive Seite; Versionen 1–5 werden als Einzelzeichnung geöffnet. Autosicherung und projektweiter Verlauf erfassen alle Seiten. Seitenwechsel ist keine Inhaltsänderung. Freischnitt und Balkenschnitt optional auf eigenen Seiten. Export der aktuellen Seite in allen bisherigen Formaten; mehrseitiger PDF-Export folgt.
 
