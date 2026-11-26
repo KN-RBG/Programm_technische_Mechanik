@@ -1,5 +1,8 @@
 # Versionshistorie
 
+## 2.1.2
+Flächenlast: Checkbox „Linear veränderliche Flächenlast“ aktiviert getrennte Anfangs- und Endwerte p1/p2. Beide sind nichtnegativ; konstante Richtung, Variation nur entlang der Flächenlänge a, über Breite b konstant. Pfeillänge linear interpoliert. Resultierende F=(p1+p2)*a*b/2; Angriffspunkt x=a*(p1+2*p2)/(3*(p1+p2)), y=b/2 (lokale Flächenkoordinaten); bei Null-Last kein Ersatz. Streckenlast q1=p1*b, q2=p2*b auf Mittellinie. Einheitenwechsel rechnet beide Werte und Maßstab um. Alte Dateien mit pValue bleiben konstant, pEnd und pLinear werden in JSON gespeichert. Schematische Projektion, kein hydrostatischer Tiefenautomatismus und keine automatische Balkenzuordnung.
+
 ## 2.1.1
 Flächenlasten umrechnen (Freischnitt-Menü und Gesamtsystem-/Teilkörperfreischnitt): gleichmäßige rechteckige Flächenlast mit tatsächlicher Länge a und Breite b in m, p in N/m². Resultierende F=p*a*b in N am projizierten Flächenschwerpunkt; alternativ q=p*b in N/m entlang der projizierten Flächenmittellinie, gleiche Richtung. Bei Trägern muss b der tatsächlichen Einflussbreite entsprechen. Original wahlweise entfernen oder gestrichelt als Konstruktionshilfe behalten. Keine automatische Zuordnung zum Träger; Ersatzobjekte frei platzierbar, keine dynamische Rückrechnung. Explizit gewählte Streckenlast bleibt im Freischnitt als Streckenlast erhalten. Balkenschnitt berücksichtigt Flächenlasten nicht automatisch; Warnung bleibt. Einheiten N/m², kN/m², N/mm² werden umgerechnet.
 
