@@ -1,5 +1,8 @@
 # Versionshistorie
 
+## 1.4.0
+Seitenregister unter der Zeichenfläche: neu, umbenennen, duplizieren, verschieben, löschen (mindestens eine Seite). Jede Seite hat eigene Elemente und Maßstäbe. JSON Version 6 speichert alle Seiten und aktive Seite; Versionen 1–5 werden als Einzelzeichnung geöffnet. Autosicherung und projektweiter Verlauf erfassen alle Seiten. Seitenwechsel ist keine Inhaltsänderung. Freischnitt und Balkenschnitt optional auf eigenen Seiten. Export der aktuellen Seite in allen bisherigen Formaten; mehrseitiger PDF-Export folgt.
+
 ## 1.3.1
 Objektliste: Schloss pro Objekt sowie Auswahl sperren/entsperren. Gesperrte Objekte bleiben auswählbar, sichtbar und exportierbar. Bearbeiten, Ziehen, Drehen, Löschen, Gruppieren, Spiegeln und Zerlegen sind bei gesperrter Auswahl blockiert. Auch Anker- und Verbindungsobjekte, von denen gesperrte Elemente abhängen, sind gegen Bearbeitung geschützt. Zeichenreihenfolge nur ändern, wenn keine Objekte gesperrt sind. Kopien (auch Freischnittkopien) werden entsperrt erzeugt. Projektweite Maßstäbe, Rückgängig/Wiederholen und Projektwechsel bleiben möglich. Sperrstatus in JSON und Autosicherung.
 
