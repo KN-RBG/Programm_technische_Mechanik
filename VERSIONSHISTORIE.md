@@ -1,5 +1,8 @@
 # Versionshistorie
 
+## 2.1.4
+Automatisch erzeugte Lagerreaktionen: Festlager A_x und A_y, Loslager B_y bei horizontaler Auflage, B_x bei vertikaler Auflage, B_n bei schräger Auflage (Normalrichtung). Einspannung C_x, C_y, M_C. Explizite Lagerbezeichnungen bleiben maßgeblich; unbeschriftete Lager erhalten fortlaufende Buchstaben. Gelenk-, Stab-, Seilkräfte und Schnittgrößen bleiben unverändert. Bestehende Freischnitte werden nicht automatisch umbenannt.
+
 ## 2.1.3
 Freischnitte (Gesamtsystem, Teilkörper und Balkenschnitt) stellen Balken standardmäßig als dicke dunkle Linie entlang der Balkenachse dar. Die Option ist im Dialog abwählbar; einzelne Balken lassen sich unter Eigenschaften > Darstellung umschalten. Ursprüngliches Balkenobjekt, Länge, Höhe und reale Angriffspunkte bleiben erhalten; exzentrische Kräfte werden nicht auf die Achse verschoben, da dies das Moment ändern könnte. Reine Darstellungsänderung; bei exzentrischen Kräften die sichtbare Distanz beachten. JSON speichert beamLine.
 

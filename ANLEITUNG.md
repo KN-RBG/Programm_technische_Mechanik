@@ -1,4 +1,4 @@
-# TM-Draw 2.1.3 – Bedienungsanleitung
+# TM-Draw 2.1.4 – Bedienungsanleitung
 
 Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://kn-rbg.github.io/Programm_technische_Mechanik/
 
@@ -49,7 +49,7 @@ Export: ganze Zeichnung oder Auswahl, Rand, optional Raster und transparenter Hi
 Automatischer Freischnitt einfacher Gesamtsysteme: Menü Freischnitt > Gesamtsystem freischneiden. Kopie rechts neben dem Original, unbekannte blaue Reaktionen mit grafischer Pfeillänge. Festlager zwei Kraftkomponenten, Loslager normal zur Lagerfläche, Einspannung zwei Kraftkomponenten und Moment. Vorhandene Lasten bleiben unverändert. Keine automatische Gleichgewichtsberechnung; weitere Schnittfunktionen siehe folgende Abschnitte. Mehrfaches Freischneiden derselben Zeichnung wird verhindert. Rückgängig entfernt den erzeugten Freischnitt.
 
 ## Freischnitt ausgewählter Teilkörper (1.2.1)
-Ausgewählte Teilkörper: Balken oder geometrische Bauteile auswählen (Strg-Klick für mehrere; Alt-Klick für einzelne Gruppenmitglieder). Freischnitt > Ausgewählte Teilkörper freischneiden. Verbundene Lager und Einzelkräfte/Momente werden übernommen, Streckenlasten mit beiden zugeordneten Bezugspunkten ebenfalls. Ungebundene Lasten und Beschriftungen bei Bedarf ausdrücklich mit auswählen. Unklare Verbindungen werden gemeldet, Weitere Verbindungen und Schnittgrößen siehe folgende Abschnitte. Original bleibt erhalten, Kopie rechts. Benennung F_{AH}, F_{AV}, F_{B}, M_{C}.
+Ausgewählte Teilkörper: Balken oder geometrische Bauteile auswählen (Strg-Klick für mehrere; Alt-Klick für einzelne Gruppenmitglieder). Freischnitt > Ausgewählte Teilkörper freischneiden. Verbundene Lager und Einzelkräfte/Momente werden übernommen, Streckenlasten mit beiden zugeordneten Bezugspunkten ebenfalls. Ungebundene Lasten und Beschriftungen bei Bedarf ausdrücklich mit auswählen. Unklare Verbindungen werden gemeldet, Weitere Verbindungen und Schnittgrößen siehe folgende Abschnitte. Original bleibt erhalten, Kopie rechts. Benennung A_x, A_y, B_y, M_C (seit 2.1.4).
 
 ## Gelenk-, Stab- und Seilkräfte (1.2.2)
 Beim Freischnitt ausgewählter Teilkörper werden eindeutig beidseitig verankerte Seile und Fachwerkstäbe an der Systemgrenze durch angenommene Zugkräfte ersetzt. Innere Verbindungen bleiben erhalten. Ein Gelenk mit einem befestigten Balken und genau einem geometrisch berührenden weiteren Balken wird nur nach ausdrücklicher Bestätigung als Verbindung behandelt. Gegenrichtungen bei getrennten Seiten; H/V-Indizes. Rollen, unklare Mehrfachverbindungen, zusätzliche Stablasten, freie Anker und Endkräfte eines selbst ausgewählten Stabs manuell prüfen. Keine Berechnung der Kraftbeträge.
@@ -89,3 +89,6 @@ Flächenlast: Checkbox „Linear veränderliche Flächenlast“ aktiviert getren
 
 ## Balkendarstellung im Freischnitt (2.1.3)
 Freischnitte (Gesamtsystem, Teilkörper und Balkenschnitt) stellen Balken standardmäßig als dicke dunkle Linie entlang der Balkenachse dar. Die Option ist im Dialog abwählbar; einzelne Balken lassen sich unter Eigenschaften > Darstellung umschalten. Ursprüngliches Balkenobjekt, Länge, Höhe und reale Angriffspunkte bleiben erhalten; exzentrische Kräfte werden nicht auf die Achse verschoben, da dies das Moment ändern könnte. Reine Darstellungsänderung; bei exzentrischen Kräften die sichtbare Distanz beachten. JSON speichert beamLine.
+
+## Lagerreaktionen (2.1.4)
+Automatisch erzeugte Lagerreaktionen: Festlager A_x und A_y, Loslager B_y bei horizontaler Auflage, B_x bei vertikaler Auflage, B_n bei schräger Auflage (Normalrichtung). Einspannung C_x, C_y, M_C. Explizite Lagerbezeichnungen bleiben maßgeblich; unbeschriftete Lager erhalten fortlaufende Buchstaben. Gelenk-, Stab-, Seilkräfte und Schnittgrößen bleiben unverändert. Bestehende Freischnitte werden nicht automatisch umbenannt.
