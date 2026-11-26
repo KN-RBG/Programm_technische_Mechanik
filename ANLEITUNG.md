@@ -1,4 +1,4 @@
-# TM-Draw 2.1.5 – Bedienungsanleitung
+# TM-Draw 2.1.6 – Bedienungsanleitung
 
 Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://kn-rbg.github.io/Programm_technische_Mechanik/
 
@@ -95,3 +95,6 @@ Automatisch erzeugte Lagerreaktionen: Festlager A_x und A_y, Loslager B_y bei ho
 
 ## Einheitliche Komponentenindizes (2.1.5)
 Kräftezerlegung: globale und lokale Komponenten erhalten konsequent die Indizes x/y, beispielsweise F_{1x}, F_{1y}, F_{R1x}, F_{R1y}. Dies gilt auch für zuvor aus Strecken- und Flächenlasten erzeugte Resultierende. Globale Achsen horizontal/vertikal, lokale Achsen parallel/senkrecht zum befestigten Balken; ohne Balkenbezug globale Achsen. Beträge und Richtungen bleiben unverändert. Bereits erzeugte Beschriftungen werden nicht rückwirkend geändert. Lastverteilungen selbst werden weiterhin über ihre Resultierenden zerlegt.
+
+## Verschieben entlang der Wirkungslinie (2.1.6)
+Umschalt-Taste vor dem Ziehen eines Kraftpfeils gedrückt halten. Der angeklickte Kraftpfeil wird einzeln entlang seiner Wirkungslinie verschoben, auch innerhalb einer Gruppe und an einem überlagerten Knoten. Betrag, Richtung und Gruppenzugehörigkeit bleiben erhalten, die bisherige Befestigung wird beim tatsächlichen Verschieben gelöst. Eine gekoppelte Wirkungslinie bleibt an ihrer bisherigen Position. Beschriftungen sind weiterhin separat verschiebbar. Objektsperre bleibt wirksam.
