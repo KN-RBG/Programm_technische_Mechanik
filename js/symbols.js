@@ -7,7 +7,7 @@ function areaLoadValues(e){return [e.pValue,e.pLinear?(e.pEnd??e.pValue):e.pValu
 function areaLoadPressureN(e){const k=({"N/m²":1,"kN/m²":1000,"N/mm²":1000000}[e.pUnit]??1);return areaLoadValues(e).map(v=>v*k)}
 function symbol(e){const g=svgNode("g",{stroke:"#18212c","stroke-width":2,fill:"none","stroke-linejoin":"round"});
 const path=d=>svgNode("path",{d},g);
-if(e.type==="beam"){svgNode("rect",{x:0,y:-e.height/2,width:e.length,height:e.height,fill:"#dce2e8"},g)}
+if(e.type==="beam"){if(e.beamLine)svgNode("path",{d:"M0 0H"+e.length,stroke:"#18212c","stroke-width":5,"stroke-linecap":"butt",fill:"none"},g);else svgNode("rect",{x:0,y:-e.height/2,width:e.length,height:e.height,fill:"#dce2e8"},g)}
 if(e.type==="fixed"||e.type==="roller"){const y=e.type==="fixed"?42:50;svgNode("circle",{cx:0,cy:0,r:5},g);path("M-2.7 4.2L-24 42H24L2.7 4.2");path("M-32 "+y+"H32");for(let x=-24;x<=32;x+=12)path("M"+x+" "+y+"l-9 10")}
 if(e.type==="clamp"){path("M0 -30V30");for(let y=-28;y<30;y+=10)path("M0 "+y+"l-12 10")}
 if(e.type==="force"){const color=e.construction?"#777777":e.reaction?"#2563eb":"#d00000";g.setAttribute("stroke",color);if(e.construction)g.setAttribute("stroke-dasharray","6 4");const l=e.reaction?(e.reactionLength??60):e.magnitude*e.scale;path("M"+(-l)+" 0H0");if(l>0)svgNode("path",{d:"M0 0L"+(-Math.min(12,l))+" -5V5Z",fill:color},g)}

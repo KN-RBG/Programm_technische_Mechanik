@@ -1,4 +1,4 @@
-# TM-Draw 2.1.2 – Bedienungsanleitung
+# TM-Draw 2.1.3 – Bedienungsanleitung
 
 Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://kn-rbg.github.io/Programm_technische_Mechanik/
 
@@ -86,3 +86,6 @@ Flächenlasten umrechnen (Freischnitt-Menü und Gesamtsystem-/Teilkörperfreisch
 
 ## Linear veränderliche Flächenlast (2.1.2)
 Flächenlast: Checkbox „Linear veränderliche Flächenlast“ aktiviert getrennte Anfangs- und Endwerte p1/p2. Beide sind nichtnegativ; konstante Richtung, Variation nur entlang der Flächenlänge a, über Breite b konstant. Pfeillänge linear interpoliert. Resultierende F=(p1+p2)*a*b/2; Angriffspunkt x=a*(p1+2*p2)/(3*(p1+p2)), y=b/2 (lokale Flächenkoordinaten); bei Null-Last kein Ersatz. Streckenlast q1=p1*b, q2=p2*b auf Mittellinie. Einheitenwechsel rechnet beide Werte und Maßstab um. Alte Dateien mit pValue bleiben konstant, pEnd und pLinear werden in JSON gespeichert. Schematische Projektion, kein hydrostatischer Tiefenautomatismus und keine automatische Balkenzuordnung.
+
+## Balkendarstellung im Freischnitt (2.1.3)
+Freischnitte (Gesamtsystem, Teilkörper und Balkenschnitt) stellen Balken standardmäßig als dicke dunkle Linie entlang der Balkenachse dar. Die Option ist im Dialog abwählbar; einzelne Balken lassen sich unter Eigenschaften > Darstellung umschalten. Ursprüngliches Balkenobjekt, Länge, Höhe und reale Angriffspunkte bleiben erhalten; exzentrische Kräfte werden nicht auf die Achse verschoben, da dies das Moment ändern könnte. Reine Darstellungsänderung; bei exzentrischen Kräften die sichtbare Distanz beachten. JSON speichert beamLine.
