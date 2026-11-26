@@ -19,3 +19,5 @@ body{height:100vh;height:100dvh;display:flex;flex-direction:column;overflow:hidd
 #saveStatus{font-size:11px;color:#e3edf8;max-width:260px;overflow-wrap:anywhere}
 
 #freeBodyDialog{border:1px solid #aab5c2;border-radius:8px;padding:20px;max-width:min(510px,95vw)}#freeBodyLength{width:85px;padding:5px}
+
+#sectionDialog{max-width:min(580px,95vw);border:1px solid #aab5c2;border-radius:8px;padding:20px}#sectionDialog input{width:95px}#sectionDialog select{max-width:100%}
