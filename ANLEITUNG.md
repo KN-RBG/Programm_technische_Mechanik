@@ -1,4 +1,4 @@
-# TM-Draw 1.3.0 – Bedienungsanleitung
+# TM-Draw 1.3.1 – Bedienungsanleitung
 
 Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://kn-rbg.github.io/Programm_technische_Mechanik/
 
@@ -111,3 +111,6 @@ Resultierende linearer Streckenlasten: in allen Freischnittdialogen optional, au
 
 ## Objektliste (1.3.0)
 Objektliste in der rechten Seitenleiste (standardmäßig eingeklappt; Ansicht > Objektliste anzeigen öffnet sie). Alle Objekte in umgekehrter Zeichenreihenfolge, Vordergrund zuerst. Beschriftung, Typ und Gruppenzugehörigkeit sichtbar. Suche nach Name/Typ, Filter nur ausgewählte Elemente. Klick wählt gezielt ein einzelnes Objekt auch innerhalb einer Gruppe; Strg/Meta-Klick erweitert oder reduziert die Auswahl; Umschalt-Klick wählt die gesamte Gruppe. Zeichnungsauswahl und Liste bleiben synchron; Liste aktualisiert sich nach Bearbeitung, Laden und Rückgängig/Wiederholen. Keine Sperr- oder Sichtbarkeitsfunktionen in dieser Version.
+
+## Objekte sperren (1.3.1)
+Objektliste: Schloss pro Objekt sowie Auswahl sperren/entsperren. Gesperrte Objekte bleiben auswählbar, sichtbar und exportierbar. Bearbeiten, Ziehen, Drehen, Löschen, Gruppieren, Spiegeln und Zerlegen sind bei gesperrter Auswahl blockiert. Auch Anker- und Verbindungsobjekte, von denen gesperrte Elemente abhängen, sind gegen Bearbeitung geschützt. Zeichenreihenfolge nur ändern, wenn keine Objekte gesperrt sind. Kopien (auch Freischnittkopien) werden entsperrt erzeugt. Projektweite Maßstäbe, Rückgängig/Wiederholen und Projektwechsel bleiben möglich. Sperrstatus in JSON und Autosicherung.
