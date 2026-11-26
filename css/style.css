@@ -17,3 +17,5 @@ body{height:100vh;height:100dvh;display:flex;flex-direction:column;overflow:hidd
 #historyDialog{border:1px solid #aab5c2;border-radius:8px;padding:20px;max-width:min(600px,95vw);max-height:85vh;overflow:auto}#historyDialog dt{font-weight:700;margin-top:12px}#historyDialog dd{margin:4px 0 8px;line-height:1.4}
 
 #saveStatus{font-size:11px;color:#e3edf8;max-width:260px;overflow-wrap:anywhere}
+
+#freeBodyDialog{border:1px solid #aab5c2;border-radius:8px;padding:20px;max-width:min(510px,95vw)}#freeBodyLength{width:85px;padding:5px}

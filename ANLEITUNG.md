@@ -1,4 +1,4 @@
-# TM-Draw 1.0.2 – Bedienungsanleitung
+# TM-Draw 1.2.0 – Bedienungsanleitung
 
 Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://kn-rbg.github.io/Programm_technische_Mechanik/
 
@@ -90,3 +90,6 @@ Momente, Streckenlasten, Bemaßungen, Knoten, Achsen, Wirkungslinien, Seile und 
 
 ## 0.1–0.3.x
 Grundeditor, Kräfte, Lager, Maßstäbe, Fangfunktionen, Auswahl und Verlauf.
+
+## Automatischer Freischnitt (1.2.0)
+Automatischer Freischnitt einfacher Gesamtsysteme: Menü Freischnitt > Gesamtsystem freischneiden. Kopie rechts neben dem Original, unbekannte blaue Reaktionen mit grafischer Pfeillänge. Festlager zwei Kraftkomponenten, Loslager normal zur Lagerfläche, Einspannung zwei Kraftkomponenten und Moment. Vorhandene Lasten bleiben unverändert. Keine Berechnung, keine inneren Schnittkräfte. Mehrfaches Freischneiden derselben Zeichnung wird verhindert. Rückgängig entfernt den erzeugten Freischnitt.
