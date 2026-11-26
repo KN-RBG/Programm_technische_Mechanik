@@ -1,4 +1,4 @@
-# TM-Draw 1.2.5 – Bedienungsanleitung
+# TM-Draw 1.3.0 – Bedienungsanleitung
 
 Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://kn-rbg.github.io/Programm_technische_Mechanik/
 
@@ -108,3 +108,6 @@ Kräftezerlegung in allen Freischnittdialogen sowie Freischnitt > Ausgewählte K
 
 ## Resultierende von Streckenlasten (1.2.5)
 Resultierende linearer Streckenlasten: in allen Freischnittdialogen optional, außerdem Freischnitt > Resultierende von Streckenlasten für ausgewählte Lasten. Rechteck-, Dreieck- und Trapezlasten mit q1,q2 >= 0 und konstanter Richtung: F_R=(q1+q2)*L/2, Angriffspunkt ab Lastanfang x=L*(q1+2*q2)/(3*(q1+q2)). Länge in m, q in N/m oder kN/m umgerechnet, F in N. Richtung entspricht der Streckenlast. Optional graue gestrichelte Lastverteilung als Konstruktionshilfe. Null-Last bleibt unverändert. Direkte gleichseitige Balkenanker werden interpoliert; sonst freier Angriffspunkt. Resultierende wird vor der optionalen Kräftezerlegung erzeugt; keine dynamische Rückrechnung. Beim Balkenschnitt zuerst Last aufteilen, anschließend Resultierende bilden.
+
+## Objektliste (1.3.0)
+Objektliste in der rechten Seitenleiste (standardmäßig eingeklappt; Ansicht > Objektliste anzeigen öffnet sie). Alle Objekte in umgekehrter Zeichenreihenfolge, Vordergrund zuerst. Beschriftung, Typ und Gruppenzugehörigkeit sichtbar. Suche nach Name/Typ, Filter nur ausgewählte Elemente. Klick wählt gezielt ein einzelnes Objekt auch innerhalb einer Gruppe; Strg/Meta-Klick erweitert oder reduziert die Auswahl; Umschalt-Klick wählt die gesamte Gruppe. Zeichnungsauswahl und Liste bleiben synchron; Liste aktualisiert sich nach Bearbeitung, Laden und Rückgängig/Wiederholen. Keine Sperr- oder Sichtbarkeitsfunktionen in dieser Version.
