@@ -1,4 +1,4 @@
-# TM-Draw 2.0.1 – Bedienungsanleitung
+# TM-Draw 2.1.0 – Bedienungsanleitung
 
 Browserbasierter Zeichnungseditor für die Technische Mechanik. Online: https://kn-rbg.github.io/Programm_technische_Mechanik/
 
@@ -77,3 +77,6 @@ Der vereinbarte Funktionsumfang ist implementiert. Die Anwendung ist ein Zeichen
 
 ## Korrektur 2.0.1
 Korrektur: Ziehen an Kraft-, Winkel- und Maßbeschriftungen wählt das einzelne Objekt, unabhängig von Gruppenzugehörigkeit oder benachbarten Knoten. Nur Textversatz wird verändert; Angriffspunkt, Befestigung und Gruppierung bleiben erhalten. Objektsperre bleibt wirksam.
+
+## Flächenlast (2.1.0)
+Neues Symbol Flächenlast unter Kräfte und Lasten. Rechteckfläche in schematischer Schrägprojektion (keine 3D-Geometrie). Position am vorderen linken Eckpunkt, Länge und tatsächliche Breite im Seitenmaßstab, p in N/m², kN/m² oder N/mm²; Einheitenwechsel rechnet p und Pfeilmaßstab um. Pfeilrichtung relativ zur Zeichenfläche des Symbols, Pfeilanzahl je Richtung und Wertanzeige einstellbar. Beschriftung frei verschiebbar. Flächenlast im Gesamtschnitt erhalten, für Teilkörper ausdrücklich auswählen; Balkenschnitt warnt vor nicht automatisch geteilten Flächenlasten. Umrechnung und Resultierende folgen in 2.1.1.
